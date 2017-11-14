@@ -20,7 +20,13 @@ public class Sound
     public Sound(int[] samples) {
         this.samples = samples;
     }
-
+    
+    /**
+     * Changes values in this sound that have amplitude greater than the limit.
+     * 
+     * @param limit The maximum absolute amplitude.
+     * @return The number of values changed.
+     */
     public int limitAmplitude(int limit) {
         int counter = 0;
         
@@ -40,6 +46,9 @@ public class Sound
         return counter;
     }
     
+    /**
+     * Removes all silence from the beginning of this sound. 
+     */
     public void trimSilenceFromBeginning() {
         int numZeroes = 0;
         
@@ -61,6 +70,12 @@ public class Sound
         samples = trimmedAudio;
     }
     
+    
+    /**
+     * A representation of this object, as a String.
+     * 
+     * @return This object represented as a String. 
+     */
     public String toString() {
         return String.format("Sound { samples: %s }", Arrays.toString(samples));
     }
