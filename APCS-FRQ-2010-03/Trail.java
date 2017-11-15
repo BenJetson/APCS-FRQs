@@ -22,7 +22,15 @@ public class Trail
     {
         this.markers = markers;
     }
-
+    
+    /**
+     * Checks if a trail is level between the start and end markers.
+     * 
+     * @param start The starting marker.
+     * @param end The ending marker.
+     * 
+     * @return Whether or not segment is level.
+     */
     public boolean isLevelTrailSegment(int start, int end) {
         int highest = markers[start];
         int lowest  = markers[start];
@@ -37,6 +45,11 @@ public class Trail
         return difference < 10;
     }
     
+    /**
+     * Checks if a trail has more than 3 large chagnes in height.
+     * 
+     * @return Whether or not a trail is difficult.
+     */
     public boolean isDifficult() {
         int numBigChanges = 0;
         
@@ -51,6 +64,11 @@ public class Trail
         return numBigChanges >= 3;
     }
     
+    /**
+     * Creates a representation of this object as a string.
+     * 
+     * @return This Trail as a formatted string.
+     */
     public String toString() {
         return String.format("Trail { markers: %s,%n" +
                              "        isDifficult: %b }",
