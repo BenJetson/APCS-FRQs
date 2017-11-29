@@ -1,0 +1,10 @@
+Is 128 a self divisor? true
+Is 26 a self divisor? false
+Is 24 a self divisor? true
+Is 100 a self divisor? false
+What are the next 3 self divisors after 10?
+[11, 12, 15]
+What are the next 5 self divisors after 14?
+[15, 22, 24, 33, 36]
+What are the next 20 self divisors after 20?
+[22, 24, 33, 36, 44, 48, 55, 66, 77, 88, 99, 111, 112, 115, 122, 124, 126, 128, 132, 135]
