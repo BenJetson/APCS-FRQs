@@ -1,0 +1,38 @@
+
+--- COLLEGE GROUP BEGIN ---
+[ College name=Colgate University
+          region=Northeast
+          tuition=$27025 ]
+[ College name=Duke University
+          region=Southeast
+          tuition=$26000 ]
+[ College name=Kalamazoo College
+          region=Midwest
+          tuition=$19764 ]
+[ College name=Stanford University
+          region=West
+          tuition=$25917 ]
+[ College name=Florida International University
+          region=Southeast
+          tuition=$10800 ]
+[ College name=Dartmouth College
+          region=Northeast
+          tuition=$27764 ]
+[ College name=Spelman College
+          region=Midwest
+          tuition=$11455 ]
+--- COLLEGE GROUP END ---
+
+[ College name=Duke University
+          region=Southeast
+          tuition=$999999 ]
+
+--- COLLEGE GROUP BEGIN ---
+[ College name=Duke University
+          region=Southeast
+          tuition=$999999 ]
+[ College name=Florida International University
+          region=Southeast
+          tuition=$10800 ]
+--- COLLEGE GROUP END ---
+

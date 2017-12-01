@@ -1,0 +1,10 @@
+
+Trail { markers: [100, 150, 105, 120, 90, 80, 50, 75, 70, 80, 90, 100],
+        isDifficult: true }
+Is level from marker 0 to 3? false
+Is level from marker 7 to 8? true
+Trail { markers: [50, 70, 66, 81, 86, 89, 100, 107, 111, 118, 97, 91, 71, 52],
+        isDifficult: false }
+Is level from marker 0 to 3? false
+Is level from marker 5 to 6? false
+Is level from marker 3 to 5? true
