@@ -1,11 +1,26 @@
+/**
+ * Provides useful methods for manipulating a phrase.
+ * 
+ * @author Ben Godfrey
+ * @version 08 DEC 2017
+ */
 public class Phrase {
 
+    /** The phrase to be manipulated */
     private String currentPhrase;
-
+    
+    /** Constructs a new Phrase object. */  
     public Phrase(String p) {
         this.currentPhrase = p;
     }
 
+    /** 
+     * Returns the index of the nth occurrence of str in the current phrase.
+     * 
+     * @param str The string to search for.
+     * @param n Which occurrence to search for. 
+     * @return The index of the occurrence, -1 if nonexistant.
+     */
     public int findNthOccurrence(String str, int n) {
 
         int index = 0;
@@ -27,6 +42,13 @@ public class Phrase {
         return index - 1;
     }
 
+    /**
+     * Replaces the Nth occurrence of a string with something else.
+     * 
+     * @param str The string to be replaced.
+     * @param n Which occurrence to replace.
+     * @param repl The string to replace with.
+     */
     public void replaceNthOccurrence(String str, int n, String repl) {
         int nthIndex = findNthOccurrence(str, n);
         
@@ -37,6 +59,12 @@ public class Phrase {
         }
     }
 
+    /** 
+     * Finds the last occurrence of a string in the phrase.
+     * 
+     * @param str The string to search for.
+     * @return The index of the last occurrence.
+     */
     public int findLastOccurrence(String str) {
         int index = -1; 
         int counter = 1;
@@ -57,6 +85,11 @@ public class Phrase {
         return index;
     }
 
+    /**
+     * This object, as a String!
+     * 
+     * @return A String representation of this object.
+     */
     public String toString() {
         return currentPhrase;
     }
