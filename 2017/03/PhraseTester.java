@@ -21,10 +21,8 @@ public class PhraseTester {
         Phrase phrase5 = new Phrase("aaaa"); 
         phrase5.replaceNthOccurrence("aa", 2, "bbb"); 
         System.out.println(phrase5); 
-        System.out.println(phrase5.findNthOccurrence("a", 45));
-
+        
         Phrase phrase6 = new Phrase("A cat ate late.");
-        System.out.println(phrase6.findNthOccurrence("cat", 1));
         System.out.println(phrase6.findLastOccurrence("at"));
         System.out.println(phrase6.findLastOccurrence("cat")); 
         System.out.println(phrase6.findLastOccurrence("bat"));

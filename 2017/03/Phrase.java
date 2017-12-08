@@ -20,16 +20,16 @@ public class Phrase {
             }
 
             counter++;
-            index += str.length();
+            index++;
 
         } while(counter < n);
 
-        return index;
+        return index - 1;
     }
 
     public void replaceNthOccurrence(String str, int n, String repl) {
         int nthIndex = findNthOccurrence(str, n);
-        System.out.println(nthIndex);
+        
         if (nthIndex != -1) {
             String prefix = currentPhrase.substring(0, nthIndex);
             String suffix = currentPhrase.substring(nthIndex + str.length(), currentPhrase.length());
