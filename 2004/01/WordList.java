@@ -44,7 +44,7 @@ public class WordList {
      */
     public void removeWordsOfLength(int len) {
         for (int i=0; i<myList.size(); i++) {
-            if (myList.get(i).length9) == len) {
+            if (myList.get(i).length() == len) {
                 myList.remove(i);
                 i--;
             }
