@@ -4,6 +4,9 @@ All of my working FRQ code from AP Computer Science A.
 ## 2003 
 * [01 - Colleges](https://github.com/BenJetson/APCS-FRQs/tree/master/2003/01)
 
+## 2004 
+* [01 - WordList](https://github.com/BenJetson/APCS-FRQs/tree/master/2004/01)
+
 ## 2005
 * [04 - Student Record](https://github.com/BenJetson/APCS-FRQs/tree/master/2005/04)
 
