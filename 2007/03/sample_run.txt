@@ -1,0 +1,16 @@
+Answer Key: [A, C, D, E, B, C, E, B, B, C]
+---
+Scoresheet
+Name: Bob
+Answers: [A, B, D, E, A, C, ?, B, D, C]
+---
+
+---
+Scoresheet
+Name: Emily
+Answers: [A, C, D, ?, A, E, C, B, ?, A]
+---
+
+5.25
+3.0
+Bob
