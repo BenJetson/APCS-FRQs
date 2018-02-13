@@ -1,5 +1,21 @@
+/**
+ * Provides useful methods for calculating statistics
+ *   from a number cube.
+ * 
+ * @author Ben Godfrey
+ * @version 13 FEB 2018
+ */
 public class CubeStats {
 
+    /**
+     * Creates an array of random numbers, given a number cube and
+     *   the number of tosses to perform.
+     * 
+     * @param cube The number cube object to be rolled.
+     * @param numTosses The number of times to toss the number cube.
+     * 
+     * @return An array of the results from the number cube tosses. 
+     */
     public static int[] getCubeTosses(NumberCube cube, int numTosses) {
         int[] results = new int[numTosses];
 
@@ -10,6 +26,14 @@ public class CubeStats {
         return results;
     }
 
+    /**
+     * Finds the longest streak of repeated values in an array
+     *   of values.
+     * 
+     * @param values The values to be analyzed.
+     * 
+     * @return The starting index of the first longest streak.
+     */
     public static int getLongestRun(int[] values) {
 
         int currentRunValue = values[0];
