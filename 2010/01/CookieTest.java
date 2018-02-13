@@ -9,12 +9,16 @@ public class CookieTest {
         goodies.addOrder(new CookieOrder("Macaroon",       2));
         goodies.addOrder(new CookieOrder("Chocolate Chip", 3));
 
+        System.out.println();
         System.out.println(goodies);
         
         goodies.removeVariety("Chocolate Chip");
         
+        System.out.println();
         System.out.println(goodies);
-
+        
+        System.out.println();
+        
     }
 
 }
