@@ -1,0 +1,13 @@
+
+---MASTER ORDER---
+{ CookieOrder - variety: Chocolate Chip,  numBoxes: 1 }
+{ CookieOrder - variety: Shortbread,  numBoxes: 5 }
+{ CookieOrder - variety: Macaroon,  numBoxes: 2 }
+{ CookieOrder - variety: Chocolate Chip,  numBoxes: 3 }
+---END MASTER ORDER---
+
+---MASTER ORDER---
+{ CookieOrder - variety: Shortbread,  numBoxes: 5 }
+{ CookieOrder - variety: Macaroon,  numBoxes: 2 }
+---END MASTER ORDER---
+
