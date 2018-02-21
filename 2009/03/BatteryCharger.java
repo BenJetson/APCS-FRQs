@@ -25,7 +25,7 @@ public class BatteryCharger {
         for (int i=0; i<24; i++) {
             int cost = getChargingCost(i, chargeTime);
 
-            if (Math.max(cost, lowestCost) == cost) {
+            if (Math.min(cost, lowestCost) == cost) {
                 lowestCost = cost;
                 lowestStart = i;
             }
