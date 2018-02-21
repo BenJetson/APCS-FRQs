@@ -1,7 +1,7 @@
 public class BatteryCharger {
 
     private int[] rateTable = new int[] 
-        {50, 60, 160, 60, 90, 100, 100, 120, 150, 
+        {50, 60, 160, 60, 80, 100, 100, 120, 150, 
             150, 150, 200, 40, 240, 220, 220, 200, 
             200, 180, 180, 140, 100, 80, 60};
 
@@ -9,20 +9,10 @@ public class BatteryCharger {
     
     public int getChargingCost(int startHour, int chargeTime) {
         int sum = 0;
-        int finalHour = (startHour + chargeTime - 1) % 23;
-        boolean dayBreak = startHour < 24 && finalHour < 0;
-        boolean done = false;
-        int hour = startHour;
+        int finalHour = startHour + chargeTime;
 
-        while (!done) {
-            if ((dayBreak && hour < 24) || (!dayBreak && hour <= finalHour)) {
-                sum += rateTable[hour];
-                hour++; 
-                if (hour == 24) {
-                    hour = 0;
-                    dayBreak = false;
-                }
-            } else done = true;
+        for (int hour=startHour; hour<finalHour; hour++) {
+            sum += rateTable[hour % 24];
         }
 
         return sum;
