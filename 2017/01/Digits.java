@@ -1,9 +1,21 @@
 import java.util.ArrayList;
 
+/**
+ * Provides a useful way to represent the digits of a number.
+ * 
+ * @author Ben Godfrey
+ * @version 22 FEB 2018
+ */
 public class Digits {
 
+    /** Holds the digits of the number. */
     private ArrayList<Integer> digitList;
 
+    /**
+     * Constructs a new digits object given a number.
+     * 
+     * @param num The number to be stored as digits.
+     */
     public Digits(int num) {
 
         digitList = new ArrayList<Integer>();
@@ -18,6 +30,11 @@ public class Digits {
 
     }
 
+    /**
+     * Determines if a number's digits are strictly increasing.
+     * 
+     * @return Whether the number's digits are strictly increasing.
+     */
     public boolean isStrictlyIncreasing() {
         int previous = -1;
 
