@@ -6,9 +6,14 @@ All of my working FRQ code from AP Computer Science A.
 
 ## 2004 
 * [01 - WordList](https://github.com/BenJetson/APCS-FRQs/tree/master/2004/01)
+* [02 - Pets](https://github.com/BenJetson/APCS-FRQs/tree/master/2004/02)
 
 ## 2005
+* [02 - Tickets](https://github.com/BenJetson/APCS-FRQs/tree/master/2005/02)
 * [04 - Student Record](https://github.com/BenJetson/APCS-FRQs/tree/master/2005/04)
+
+## 2006
+* [02 - Items](https://github.com/BenJetson/APCS-FRQs/tree/master/2006/02)
 
 ## 2007
 * [01 - Self Divisor](https://github.com/BenJetson/APCS-FRQs/tree/master/2007/01)
