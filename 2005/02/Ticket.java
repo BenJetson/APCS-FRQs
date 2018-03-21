@@ -28,7 +28,7 @@ public abstract class Ticket {
      * @return A string representation of this object.
      */
     public String toString() {
-        return String.format("Number: %f\nPrice: %d", serialNumber, getPrice());
+        return String.format("Number: %d\nPrice: %f", serialNumber, getPrice());
     }
 
     /** 
