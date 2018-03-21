@@ -1,0 +1,6 @@
+Vehicle [dealerCost=20000.000000, dealerMarkup=2500.000000, taxRate=0.100000, listPrice=22500.000000, purchasePrice=24750.000000]
+Vehicle [dealerCost=20000.000000, dealerMarkup=1000.000000, taxRate=0.100000, listPrice=21000.000000, purchasePrice=23100.000000]
+Vehicle [dealerCost=19785.000000, dealerMarkup=4723.000000, taxRate=0.300000, listPrice=24508.000000, purchasePrice=31860.400000]
+Vehicle [dealerCost=19785.000000, dealerMarkup=1000.000000, taxRate=0.300000, listPrice=20785.000000, purchasePrice=27020.500000]
+Vehicle [dealerCost=96412.000000, dealerMarkup=30212.000000, taxRate=0.140000, listPrice=126624.000000, purchasePrice=144351.360000]
+Vehicle [dealerCost=96412.000000, dealerMarkup=1000.000000, taxRate=0.140000, listPrice=97412.000000, purchasePrice=111049.680000]

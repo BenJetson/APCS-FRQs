@@ -38,4 +38,16 @@ public class Vehicle extends TaxableItem {
         this.dealerMarkup = dealerMarkup;
     } 
 
+    /**
+     * Gets a String representation of this object.
+     * 
+     * @return A string representation of this object.
+     */
+    public String toString() {
+        return String.format("Vehicle [dealerCost=%f, dealerMarkup=%f, " + 
+                             "taxRate=%f, listPrice=%f, purchasePrice=%f]",
+                             dealerCost, dealerMarkup, getTaxRate(),
+                             getListPrice(), purchasePrice());
+    }
+
 }

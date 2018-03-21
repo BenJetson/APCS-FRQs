@@ -35,4 +35,13 @@ public abstract class TaxableItem implements Item {
         return getListPrice() * (1 + taxRate);
     }
 
+    /** 
+     * Gets the tax rate on this item.
+     * 
+     * @return The tax rate.
+     */
+    public double getTaxRate() {
+        return taxRate;
+    }
+
 }
