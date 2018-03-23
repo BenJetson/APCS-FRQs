@@ -8,13 +8,12 @@
 public class BatteryCharger {
 
     /** Holds the charging rates by hour, indexed 0-23, repsectively. */
-    private int[] rateTable = new int[] 
-        {50, 60, 160, 60, 80, 100, 100, 120, 150, 
-            150, 150, 200, 40, 240, 220, 220, 200, 
-            200, 180, 180, 140, 100, 80, 60};
+    private int[] rateTable;
 
     /** Constructs a new BatteryCharger. */
-    public BatteryCharger() {}
+    public BatteryCharger(int[] rateTable) {
+        this.rateTable = rateTable;
+    }
     
     /**
      * Gets the cost of charging the battery for a certain
