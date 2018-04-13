@@ -1,0 +1,8 @@
+
+[Trio: name:"Cheeseburger/Spinach Salad/Orange Soda Trio"
+       price: $2.75]
+
+
+[Trio: name:"Club Sandwich/Coleslaw/Cappuccino Trio"
+       price: $6.25]
+
