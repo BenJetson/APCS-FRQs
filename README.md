@@ -30,9 +30,13 @@ All of my working FRQ code from AP Computer Science A.
 ## 2011
 * [01 - Sound](https://github.com/BenJetson/APCS-FRQs/tree/master/2011/01)
 
+## 2014
+* [04 - MenuItem](https://github.com/BenJetson/APCS-FRQs/tree/master/2014/04)
+
 ## 2015
 * [01 - 2D Arrays](https://github.com/BenJetson/APCS-FRQs/tree/master/2015/01)
 * [02 - HiddenWord](https://github.com/BenJetson/APCS-FRQs/tree/master/2015/02)
 
 ## 2017
 * [01 - Digits](https://github.com/BenJetson/APCS-FRQs/tree/master/2017/01)
+* [03 - Phrase](https://github.com/BenJetson/APCS-FRQs/tree/master/2017/03)
