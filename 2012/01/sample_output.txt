@@ -1,0 +1,5 @@
+{ ClimbingClub
+  [ Climb, name:"Whiteface", time:301 ]
+  [ Climb, name:"Monadnock", time:344 ]
+  [ Climb, name:"Monadnock", time:274 ]
+  [ Climb, name:"Algonquin", time:225 ] }
