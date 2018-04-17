@@ -9,8 +9,7 @@ public class ClimbTest {
         hikingClub.addClimb("Monadnock", 344);
 
         System.out.println(hikingClub);
-        int numNames = hikingClub.distinctPeakNames();
-
+        
     }
 
 }

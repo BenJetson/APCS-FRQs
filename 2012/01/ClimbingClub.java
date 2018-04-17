@@ -83,7 +83,8 @@ public class ClimbingClub {
             climbs += "\n  " + c.toString() ;
         }
 
-        return String.format("{ ClimbingClub%s }", climbs);
+        return String.format("{ ClimbingClub%n%s%n%n  distinctPeakNames: %d }", 
+                             climbs, distinctPeakNames());
 
     }
 }
